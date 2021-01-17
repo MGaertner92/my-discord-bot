@@ -4,8 +4,8 @@ const dicing = require("./dicing.js");
 const fetch = require('node-fetch');
 
 const client = new Discord.Client();
-let token = process.argv[2];
-client.login(config.BOT_TOKEN);
+const TOKEN = process.argv[2];
+client.login(TOKEN);
 
 const prefix = "!";
 
